@@ -1,10 +1,17 @@
-﻿using System;
-
-namespace Quantity_Measurement
+﻿namespace Quantity_Measurement
 {
-    class Program
+    using System;
+
+    /// <summary>
+    /// Program Class
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// To display message
+        /// </summary>
+        /// <param name="args">to get arguments.</param>
+        public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Quantity measurement program");
         }
